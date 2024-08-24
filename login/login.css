@@ -1,0 +1,17 @@
+*{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.container{
+    display: inline-block;
+    margin-left: 40%;
+}
+h1{
+    text-align: center;
+}
+button{
+    color: green;
+    text-decoration: dashed;
+}
+

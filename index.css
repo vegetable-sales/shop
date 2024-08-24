@@ -1,0 +1,52 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+.navbar,.navdiv{
+    background-image: url(/images/new.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+li,a{
+    justify-content: center;
+    color: green;
+    display: inline-block;
+    margin-left: 110px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    
+   
+}
+button{
+    background-color: yellow;
+}
+
+img{
+    margin-inline-start: auto;
+}
+li{
+  padding-top: 15px;
+}
+h4{
+    font-size: x-large;
+    font-style: italic;
+    color: red;
+}
+img{
+
+    border-radius: 50%;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    float: left;
+    margin-left: 20px;
+
+}
+
+    
+
+
+
