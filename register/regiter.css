@@ -1,0 +1,16 @@
+img{
+    margin-right: 50px;
+    margin-left: 33%;
+    border-radius: 50%;
+    
+     
+}
+.container{
+    display: flex;
+    margin-left: 33%;
+}
+button{
+    padding: 5px;
+    color: green;
+    margin-left: 150px;
+}

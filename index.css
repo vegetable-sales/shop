@@ -3,6 +3,9 @@
     padding: 0%;
     
 }
+hr{
+    color: red;
+}
 .navbar,.navdiv{
     background-image: url(/images/new.jpg);
     background-repeat: no-repeat;
@@ -32,18 +35,24 @@ li{
 h4{
     font-size: x-large;
     font-style: italic;
-    color: red;
+    color: rgb(18, 92, 183);
 }
 img{
 
     border-radius: 50%;
+    margin-right: 50px ;
 }
 .row{
     display: flex;
     justify-content: space-between;
     float: left;
     margin-left: 20px;
+    
 
+}
+h2{
+    text-align: center;
+    color: red;
 }
 
     
