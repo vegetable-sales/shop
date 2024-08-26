@@ -1,0 +1,17 @@
+*{
+    background-color: aqua;
+}
+.farm{
+    text-align: center;
+}
+img{
+    margin-left: 350px;
+}
+h2{
+    margin-inline-start: 10px;
+    padding-left: 10px;
+}
+button{
+    background-color: green;
+    color: wheat;
+}

@@ -6,22 +6,24 @@
 hr{
     color: red;
 }
+
 .navbar,.navdiv{
-    background-image: url(/images/new.jpg);
+    background-image: url(/images/images.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     
 }
 li,a{
     justify-content: center;
-    color: green;
+    color: red;
     display: inline-block;
-    margin-left: 65px;
+    margin-left: 85.5px;
     margin-bottom: 20px;
     text-decoration: none;
-    font-weight:bolder;
+    font-weight: bold;
     position: relative;
     cursor: pointer;
+    
 }
 a::after{
     position: absolute;
@@ -33,7 +35,7 @@ a::after{
     border-radius: 10px;
 }
 a:hover{
-    color: red;
+    color: white;
 }
 a:hover::after{
     scale: 1 1;
@@ -68,8 +70,8 @@ li{
 }
 h4{
     font-size: x-large;
-    font-style: italic;
-    color: rgb(18, 92, 183);
+    font-weight: bolder;
+    color: blue;
 }
 img{
 
@@ -86,7 +88,7 @@ img{
 }
 h2{
     text-align: center;
-    color: red;
+    color: black;
 }
 
     

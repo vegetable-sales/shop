@@ -11,6 +11,7 @@ img{
 }
 button{
     padding: 5px;
-    color: green;
+background-color: green;
+color: white;
     margin-left: 150px;
 }

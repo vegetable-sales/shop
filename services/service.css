@@ -1,0 +1,29 @@
+*
+h1{
+    text-align: center;
+    color: rgb(194, 30, 71);
+    text-decoration: none;
+    
+}
+h3{
+    font-style: italic;
+    font-size: xx-large;
+    
+}
+button{
+    background-color: green;
+    color: white;
+    margin-right: 10px;
+}
+img{
+   margin: 45px;
+   width: 500px;
+   height: 500px;
+}
+.img{
+    display: flex;
+
+}
+h2{
+    text-align: center;
+}
