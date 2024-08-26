@@ -16,14 +16,48 @@ li,a{
     justify-content: center;
     color: green;
     display: inline-block;
-    margin-left: 110px;
+    margin-left: 65px;
     margin-bottom: 20px;
     text-decoration: none;
-    
-   
+    font-weight:bolder;
+    position: relative;
+    cursor: pointer;
+}
+a::after{
+    position: absolute;
+    content: "";
+    inset: 0;
+    scale: 1 0;
+    z-index: -1;
+    transition: 0:45s ;
+    border-radius: 10px;
+}
+a:hover{
+    color: red;
+}
+a:hover::after{
+    scale: 1 1;
 }
 button{
+    margin-right: 10px;
+    padding: 5px;
     background-color: yellow;
+}
+button::after{
+    position: absolute;
+    content: "";
+    inset: 0;
+    scale: 1 0;
+    z-index: -1;
+    transition: 0:45s ;
+    border-radius: 10px;
+
+}
+button:hover{
+    
+}
+button::after{
+    scale:1 1;
 }
 
 img{
