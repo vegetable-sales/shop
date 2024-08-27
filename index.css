@@ -67,6 +67,12 @@ p{
 }
 .row{
     margin-inline-start: auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-between;
+    float: left;
+    margin-left: 20px;
+    
     
 }
 li{
@@ -81,14 +87,11 @@ h4{
     border-radius: 50%;
     margin-right: 53px ;
 }
-.row{
-    display: flex;
-    justify-content: space-between;
-    float: left;
-    margin-left: 20px;
+.
+   
     
 
-}
+
 h2{
     text-align: center;
     color: black;
@@ -101,16 +104,21 @@ h2{
 h2{
     border-style:groove;
     padding-top: 120px;
-    background-image: url(/images/design\ 2.jpg );width: 500px;
-    color: black;
+    background-image: url(/images/cload.jpg );width: 550px;
+    color: rgb(180, 243, 8) ;
+    margi
 }
 h1{
-    
+    display: flex;
     border-style:outset;
     border-width: medium;
-   
-    color: rgb(192, 13, 153);
+    color: rgb(192, 23, 127);
     text-decoration:wavy;
+    align-items:first baseline;
+}
+.buy{
+    display:inline-flex;
+    padding-top: 40px;
 }
 
 
