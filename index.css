@@ -75,13 +75,17 @@ p{
     
     
 }
+img{
+    border-radius: 50%;
+}
 li{
   padding-top: 15px;
 }
 h4{
     font-size: x-large;
     font-weight: bolder;
-    color: blue;
+    color: white;
+    background-color: blue;
 }
 .box1,.box2,.box3,.box4,.box5,.box6{
     border-radius: 50%;
