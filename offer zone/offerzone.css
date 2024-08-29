@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(81, 136, 129);
+}    
+.container{
+display: flex;
+margin-left: 33%;
+}
+button{
+padding: 5px;
+background-color: green;
+color: white;
+margin-left: 150px;
+}
+.btn{
+margin-right: 30px;
+}

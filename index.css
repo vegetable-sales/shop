@@ -1,28 +1,50 @@
 *{
+    @media screen and (min-width: 480px) {
+        #leftsidebar {width: 200px; float: left;}
+        #main {margin-left: 216px;}
+      }
+    @media screen and (min-width: 480px) {
+        body {
+          
+        }
+      }
     margin: 0%;
     padding: 0%;
     
 }
+body{
+    background:linear-gradient(rgb(141, 154, 116),rgb(141, 154, 116));
+}
 hr{
     color: red;
 }
+u{
+    color: rgb(61, 40, 40);
+}
 
 .navbar,.navdiv{
-    background-image: url(/images/images.jpg);
+    @media screen and (min-width: 480px) {
+        #leftsidebar {width: 200px; float: left;}
+        #main {margin-left: 216px;}
+      }
+    background-color: rgb(16, 17, 17);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    padding-bottom: 1px;
+    margin-bottom: 1px;
     
 }
 li,a{
     justify-content: center;
-    color: red;
+    color: rgb(133, 210, 17);
     display: inline-block;
-    margin-left: 80px;
-    margin-bottom: 20px;
+    margin-left: 65px;
+    margin-bottom: 0.1px;
     text-decoration: none;
     font-weight: bold;
     position: relative;
-    cursor: pointer;
+    cursor:pointer;
+    
     
 }
 a::after{
@@ -43,7 +65,12 @@ a:hover::after{
 button{
     margin-right: 10px;
     padding: 5px;
-    background-color: yellow;
+    background-color: rgb(21, 14, 14);
+    color: white;
+}
+.login{
+    color: white;
+    background-color: green;
 }
 button::after{
     position: absolute;
@@ -56,6 +83,11 @@ button::after{
 
 }
 button:hover{
+    cursor: pointer;
+
+}
+.color{
+    color: black;
     
 }
 button::after{
@@ -63,7 +95,7 @@ button::after{
 }
 p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:deeppink;
+    color: black;
 }
 .row{
     margin-inline-start: auto;
@@ -108,15 +140,15 @@ h2{
 h2{
     border-style:groove;
     padding-top: 120px;
-    background-image: url(/images/cload.jpg );width: 550px;
-    color: rgb(180, 243, 8) ;
+    background-image: url(/images/whole.jpg );width: 550px;
+    color: white ;
     margi
 }
 h1{
     display: flex;
     border-style:outset;
     border-width: medium;
-    color: rgb(192, 23, 127);
+    color: green;
     text-decoration:wavy;
     align-items:first baseline;
 }
@@ -124,7 +156,40 @@ h1{
     display:inline-flex;
     padding-top: 40px;
 }
-
+.container{
+    
+    margin-top: 10px;
+    padding-top: 50px;
+}
+.hurry,h6{
+    margin: 0%;
+    padding: 0%;
+    display: inline-flex;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    padding-top: 40px;
+    
+    
+    
+}
+h3{
+    color: black;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.zone,h6{
+    display: inline-flex;
+  padding-top: 90px;
+   
+}
+.div{
+    padding-right: 40px;
+}
+.last{
+    justify-content: center;
+    display: flex;
+    color: white;
+}
 
 
 

@@ -3,6 +3,9 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
+body{
+    background-color: rgb(141, 154, 116);
+}
 .container{
     display: inline-block;
     margin-left: 40%;
